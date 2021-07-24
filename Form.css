@@ -1,0 +1,100 @@
+*{
+    margin: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+.main_div
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 350px;
+    height: 600px;
+    margin: 30px auto;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.center_div{
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+input[type=text] {
+    width: 100%;
+    padding: 15px 30px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.btn{
+    background-color: green;
+    margin: 10px;
+    font-size: 14px;
+    padding: 6px 4px;
+    width: 35%;
+    height: 25%;
+    font-weight: 550;
+    border-radius: 15px;
+    border: 2px solid #0f0f0f;
+}
+.btn:hover{
+    background-color: #00de21;
+    color: whitesmoke;
+    cursor: pointer;
+}
+#Seconday_para{
+    margin: 20px 0px;
+    padding: 0px 20px;
+    width: 100%;
+    font-size: 19px;
+    font-weight: 700;
+    
+}
+#studentName{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin:0px auto;
+    padding-left: 35px;
+    font-size: 14px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+#studentName::-webkit-scrollbar {
+    width: 3px;
+    height: auto;
+}
+#studentName::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+
+#studentName::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 20px;
+  }
+
+span{
+    float: right;
+    margin: 0px 20px; 
+}
+.btn1{
+    background-color: #b40404;
+    color: black;
+    height: 5vh;
+    border-radius: 15px;
+    border: 2px solid #0f0f0f;
+    margin: 10px -14px;
+    padding: 0px 14px;
+    font-size: 15px;
+    font-weight: 550;
+    cursor: pointer;
+}
+.btn1:hover
+{
+    background-color: #f21313;
+    color: whitesmoke; 
+}

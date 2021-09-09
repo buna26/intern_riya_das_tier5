@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+.container {
+    width: 250px;
+    padding: 12px;
+}
+.container input[type=search] {
+    background-color: skyblue;
+    color: white;
+    padding: 12px 20px;
+    border: black;
+    border-radius: 4px;
+}
+.container input[type=submit] {
+    background-color: skyblue;
+    color: white;
+    padding: 12px 20px;
+    border: black;
+    border-radius: 4px;
+}
